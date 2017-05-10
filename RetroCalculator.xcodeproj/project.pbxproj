@@ -12,6 +12,7 @@
 		EE632B071EC273B800AE5FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE632B051EC273B800AE5FD4 /* Main.storyboard */; };
 		EE632B091EC273B800AE5FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE632B081EC273B800AE5FD4 /* Assets.xcassets */; };
 		EE632B0C1EC273B800AE5FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE632B0A1EC273B800AE5FD4 /* LaunchScreen.storyboard */; };
+		EE632B141EC2914F00AE5FD4 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE632B131EC2914F00AE5FD4 /* Minecrafter.Reg.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EE632B081EC273B800AE5FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE632B0B1EC273B800AE5FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE632B0D1EC273B800AE5FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE632B131EC2914F00AE5FD4 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		EE632B001EC273B800AE5FD4 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				EE632B131EC2914F00AE5FD4 /* Minecrafter.Reg.ttf */,
 				EE632B011EC273B800AE5FD4 /* AppDelegate.swift */,
 				EE632B031EC273B800AE5FD4 /* ViewController.swift */,
 				EE632B051EC273B800AE5FD4 /* Main.storyboard */,
@@ -127,6 +130,7 @@
 				EE632B0C1EC273B800AE5FD4 /* LaunchScreen.storyboard in Resources */,
 				EE632B091EC273B800AE5FD4 /* Assets.xcassets in Resources */,
 				EE632B071EC273B800AE5FD4 /* Main.storyboard in Resources */,
+				EE632B141EC2914F00AE5FD4 /* Minecrafter.Reg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
