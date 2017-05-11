@@ -13,6 +13,7 @@
 		EE632B091EC273B800AE5FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE632B081EC273B800AE5FD4 /* Assets.xcassets */; };
 		EE632B0C1EC273B800AE5FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE632B0A1EC273B800AE5FD4 /* LaunchScreen.storyboard */; };
 		EE632B141EC2914F00AE5FD4 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE632B131EC2914F00AE5FD4 /* Minecrafter.Reg.ttf */; };
+		EE632B161EC2951100AE5FD4 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE632B151EC2951100AE5FD4 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE632B0B1EC273B800AE5FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE632B0D1EC273B800AE5FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE632B131EC2914F00AE5FD4 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		EE632B151EC2951100AE5FD4 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,8 @@
 		EE632B001EC273B800AE5FD4 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				EE632B131EC2914F00AE5FD4 /* Minecrafter.Reg.ttf */,
+				EE632B171EC2951800AE5FD4 /* Fonts */,
+				EE632B181EC2952300AE5FD4 /* Sounds */,
 				EE632B011EC273B800AE5FD4 /* AppDelegate.swift */,
 				EE632B031EC273B800AE5FD4 /* ViewController.swift */,
 				EE632B051EC273B800AE5FD4 /* Main.storyboard */,
@@ -65,6 +68,22 @@
 				EE632B0D1EC273B800AE5FD4 /* Info.plist */,
 			);
 			path = RetroCalculator;
+			sourceTree = "<group>";
+		};
+		EE632B171EC2951800AE5FD4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE632B131EC2914F00AE5FD4 /* Minecrafter.Reg.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		EE632B181EC2952300AE5FD4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EE632B151EC2951100AE5FD4 /* btn.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE632B161EC2951100AE5FD4 /* btn.wav in Resources */,
 				EE632B0C1EC273B800AE5FD4 /* LaunchScreen.storyboard in Resources */,
 				EE632B091EC273B800AE5FD4 /* Assets.xcassets in Resources */,
 				EE632B071EC273B800AE5FD4 /* Main.storyboard in Resources */,
